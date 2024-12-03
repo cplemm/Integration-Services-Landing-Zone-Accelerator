@@ -112,7 +112,7 @@
         },
 
         "apim": {
-            "name": "[concat('apim',variables('nameSuffix'))]",
+            "name": "[concat('clemmapim',variables('nameSuffix'))]",
             "tier": "Developer",
             "capacity": "1",
             "identity": "None",
